@@ -1,0 +1,41 @@
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex img {
+    margin-right: 80px;
+}
+.container {
+    padding: 10px;
+    min-width: 800px;
+    min-height: 500px;
+    border-radius: 5px;
+    background-color: #FFF;
+}
+#caixa, form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    margin-bottom: 30px;
+}
+input {
+    padding: 8px;
+    margin: 5px;
+    border-radius: 50px;
+    border: none;
+    background-color: #DDD;
+}
+
+button {
+    width: 90%;
+    padding: 5px;
+    margin-top: 8px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(22, 22, 22);
+    color: #FFF;
+}
